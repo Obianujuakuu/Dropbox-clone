@@ -1,0 +1,79 @@
+.selector-for-some-widget{
+  box-sizing: content-box;
+}
+.card{
+  width: 18rem;
+  border-style: none;
+  padding: 16px;
+}
+
+.card-img-top{
+  width: 60px;
+  padding-left: 12px;
+}
+
+.hero{
+  min-height: 50vh;
+  background-size: cover;
+}
+
+.navbar-nav,
+.btn-outline-success{
+  font-size:1.1rem !important;
+  --bs-btn-hover-bg: rgb(225, 225, 238); 
+} 
+
+.navbar-nav{
+  font-size:1.1rem !important;
+  --bs-nav-hover: rgb(225, 225, 238); 
+} 
+.navbar{
+  --bs-navbar-padding-y: 0 !important;
+}
+.bg-body-tertiary{
+  background-color: white !important;
+  height: auto;
+}
+.container-fluid{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 5px;
+ 
+}
+
+.navbar-collapse{
+  padding-left: 8px;
+}
+
+.logo-text{
+  font-weight: 500;
+}
+
+.card-link{
+  color: black;
+  font-size: large;
+  font-weight: 500;
+  text-decoration: underline rgb(123, 120, 120);
+}
+
+.card-link:hover {
+  text-decoration: underline black;
+}
+
+
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu{display: none;}
+  .navbar .nav-item:hover .dropdown-menu{display: block;}
+  .navbar .nav-item .dropdown-menu{margin-top: 0;}
+  .navbar-collapse{background-color: white !important;}
+  .nav-link:hover{background-color: rgb(225, 225, 238);}
+}
+
+@media (min-width: 576px) {
+  .navbar-collapse, .dropdown-menu {background-color: rgb(225, 225, 238);}
+}
